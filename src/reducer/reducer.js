@@ -108,6 +108,13 @@ export const reducer = (state, action) => {
             }
         }
 
+        case actionTypes.START_GAME: {
+            return {
+                ...state,
+                gameStarted: true
+            }
+        }        
+
         default : 
             return state
     }

@@ -21,4 +21,6 @@ export const initGameState = {
         w : 'both',
         b : 'both'
     }, 
+
+    gameStarted: false,
 }
