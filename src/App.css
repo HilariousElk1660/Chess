@@ -10,7 +10,10 @@ html,body {
   display: grid;
   place-content: center;
   height: 100vh;
-  background: var(--bg-color);
+  background: url("./assets/image.png");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
   font-family: 'Sofia Sans', sans-serif;
   grid-template-columns: auto 220px;
 
